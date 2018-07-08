@@ -1,0 +1,14 @@
+struct tempSensor {
+    long temp;
+}; 
+
+struct startStop {
+    long button; // start 1, stop 0
+}; 
+
+struct actuator {
+    long status; // 2 - working, 1 - degraded, 0 - stop
+    long Uid; // 
+	long tempInput;
+	long buttonInput;// 1 - stat,  0- stop
+};
